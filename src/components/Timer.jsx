@@ -4,13 +4,6 @@ class Timer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      person: {
-        imgSrc: "set profile picture",
-        fullname: "write ur name",
-        profession: "write down ur profession",
-        bio: "tell us about urself",
-      },
-
       timer: 0,
     };
     console.log("run constructor");

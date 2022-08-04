@@ -11,6 +11,7 @@ class App extends Component {
       profession: "Fullsatck Developer",
       bio: "Recent computer science graduate with a passion for developing scalable web applications and working across the full stack. I am looking to join forces with Red Technologies to continue to grow my skill set while contributing to the positive outcome of making people richer smarter and happier.",
     },
+    isVisible: false,
   };
 
   toggleVisibility = () => {
